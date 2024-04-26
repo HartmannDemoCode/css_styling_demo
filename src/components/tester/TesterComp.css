@@ -1,0 +1,28 @@
+#tester {
+    background-color: aquamarine;
+}
+.top-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+.flex-sub1-container {
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: bottom;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    height: 1000px;
+}
+
+.flex-element {
+    margin: 10px;
+    border: 2px solid black;
+    height: 100px;
+}

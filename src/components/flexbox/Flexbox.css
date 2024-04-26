@@ -1,0 +1,89 @@
+div.flexbox {
+    background-color: rgba(255, 204, 0, 0.287);
+}
+
+.flexbox .wrapper {
+  width: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexbox .wrapper > div {
+  flex: 1 1 150px;
+  background-color: lightblue;
+  border: 1px solid white;
+}
+
+.centerexample-parent {
+    display: flex;
+    height: 100px; /* Or whatever */
+    border: 1px solid black;
+    width: 500px;
+  }
+  
+  .centerexample-child {
+    width: 100px;  
+    height: 20px; 
+    /* Magic! */
+    margin: auto;  
+    border: 2px solid red;
+  }
+
+  .cssviewer {
+    /* height: 1200; */
+    /* width: 1200px; */
+    /* margin: 0 auto; */
+    border: 3px solid black;
+  }
+
+  .parent-box {
+    display: flex;
+    /* box-sizing: border-box;  */
+    
+    border: 10px solid orange;  
+    /* height: 1000px;  */
+    /* width: 1200px; */
+  }
+
+  /* .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+  } */
+
+.element-box {
+  background-color: red;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.type1 {
+  min-height: 10px;
+  align-self: center;
+  /* min-width: 10px; */
+  overflow:scroll;
+}
+
+.type2 {
+  min-height: 100px;
+  flex-basis: 0; /* flex-basis is the initial size of a flex item, before extra space is distributed */
+  flex-grow: 1;
+}
+
+.type3 {
+  min-height: 100px;
+  min-width: 200px;
+} 
+
+.type4 {
+  min-height: 100px;
+  min-width: 200px;
+  flex-grow: 2;
+  flex-basis: 0; /* flex-grow distributes the extra space, based on the basis value (which would normally be the min-width of the element */
+} 

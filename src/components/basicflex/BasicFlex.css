@@ -1,0 +1,29 @@
+.basic-flex-container {
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: row nowrap; /* shorthand for flex-direction and flex-wrap default setting*/
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* Giving the flex container a height and width stop the flex items to resize */
+  /* height: 600px; */
+  /* width: 600px; */
+  border: 1px solid black;
+}
+
+.basic-flex-item {
+  height: 100px;
+  width: 300px;
+  background-color: rgb(220, 219, 218);
+  border: 1px solid black;
+  margin:10px;
+}
+
+.basic-flex-item1 {
+  height: 150px;
+}
+.basic-flex-item2 {
+  height: 200px;
+}
+.basic-flex-item3 {
+  height: 300px;
+}
